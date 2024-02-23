@@ -1,17 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;    
+    text-decoration: none;  
+    font-family: none;    
+  }
+
 header{
    background: #FA1E01;
-   color: white;
+   color: white;  
+   font-family: "Orbitron", sans-serif;
+   font-size: 10px;
    
+   
+}
+
+.text__header {
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.texto__header h1{
+    display: inline-block;
+    justify-content:last baseline;
+    margin-left: 600px;
+    width: 0%;
+    padding-left: 0px, 0px;
+}
+
+.text__top h1, h3{
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 header h1 {
     display: inline-block;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 600px;
-    
     color: white;
+    font-family: "Orbitron", sans-serif;
+}
+
+.container__top strong{
+    color: #FA1E01;
 }
 
 
@@ -19,6 +57,31 @@ body{
     
     background-color: white;
      
+}
+
+.font__text h1, h1, h1{
+    font-family: "Titillium Web", sans-serif;
+    width: Hug (342px)
+    height: Hug (91px)
+    gap: 3px
+}
+
+
+.container__top{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-right: 150px;  
+    font-size: 8px;
+
+}
+
+.container__bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-right: 150px;  
+    font-size: 8px;
 }
 
 .banner h2{
